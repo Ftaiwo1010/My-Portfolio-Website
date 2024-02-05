@@ -683,6 +683,8 @@ nav ul li a i:not(ul:last-child i) {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -691,9 +693,6 @@ nav ul li a i:not(ul:last-child i) {
 
 .image-color{
     max-width: 300px;
-    display: flex;
-    align-self: flex-start;
-    justify-self: flex-start;
 }
 
 
