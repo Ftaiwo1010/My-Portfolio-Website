@@ -518,7 +518,7 @@ form .btn2 {
     font-size: 18px;
     margin-top: 30px;
     border: 1px solid hsl(120, 51%, 38%);
-    background-color: hsl(120, 43%, 43%);
+    background-color: hsl(120, 56%, 35%);
     border-radius: 6px;
     color: #fff;
     cursor: pointer;
@@ -683,8 +683,6 @@ nav ul li a i:not(ul:last-child i) {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
-    align-items: flex-start;
     gap: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -693,6 +691,9 @@ nav ul li a i:not(ul:last-child i) {
 
 .image-color{
     max-width: 300px;
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
 }
 
 
@@ -911,7 +912,7 @@ p.skill-text {
 
 
 .contactMe a.btn {
-    padding: 8px 20px;
+    padding: 10px 20px;
     font-size: 15px;
 }
 
