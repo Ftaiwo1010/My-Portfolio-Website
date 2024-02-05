@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e6f7102cce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>My Portfolio Website</title>
+</head>
+<body>
+   <div class="container">
+      <div id="header-container">
+         <nav>
+           <div class="header-text"><span>F</span>EMZ.</div>
+           <ul id="sidemenu">
+              <li><a href="#header-container" class="active"><i class="fa-solid fa-house" ></i>  Home</a></li>
+              <li><a href="#about-container"><i class="fa-solid fa-circle-info"></i> About</a></li>
+              <li><a href="#portfolio"><i class="fa-solid fa-folder-open"></i> Portfolio</a></li>
+              <li><a href="#myService"><i class="fa-solid fa-user-gear"></i> Service</a></li>
+              <li><a href="#myContact"><i class="fa-solid fa-address-book"></i> Contact</a></li> 
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="intro-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span class='color-text'>Femi</span><br> Taiwo From Nigeria.</h1>
+         </div>
+      </div>
+         <div id="about-container">
+            <img src="./images/header-image 2.png" class="image-color">
+            <div class="about">
+               <h1>About Me</h1>
+               <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum magnam possimus quae beatae dolorem debitis. Atque quas sequi nostrum recusandae aspernatur ex architecto modi possimus iusto, quos distinctio natus?</p>
+               <div class="myField">
+                  <h3 id="skills">Skills</h3>
+                  <h3 id="experience">Experience</h3>
+                  <h3 id="education">Education</h3>
+               </div>
+               <div class="mySkillSet">
+                  <div class="mySkill" id="mySkill">
+                     <p class="skill" id="skill">Html</p>
+                     <p class="skill-text" id="skill-text">Build Structure Of Web page</p>
+                  </div>
+                  <div class="mySkill" id="mySkill">
+                     <p class="skill" id="skill 1">Css</p>
+                     <p class="skill-text" id="skill-text 1">Describe How Element Should be Rendered on Screen</p>
+                  </div>
+                  <div class="mySkill" id="mySkill">
+                     <p class="skill" id="skill 2">JavaScript</p>
+                     <p class="skill-text" id="skill-text 2">It is a Programming language that allows the implementation of Features on Web page </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="myService">
+            <h1>My Service</h1>
+            <div class="services">
+               <div class="service-1" id="service">
+                  <i class="fa-solid fa-code"></i>
+                  <h2>Html</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio accusamus nesciunt enim aspernatur labore, error eligendi. Sequi maiores ab accusamus.</p>
+                  <p><a href="#">Learn More</a></p>
+               </div>
+               <div class="service-2" id="service">
+                  <i class="fa-regular fa-file-code"></i>
+                  <h2>Css</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio accusamus nesciunt enim aspernatur labore, error eligendi. Sequi maiores ab accusamus.</p>
+                  <p><a href="#">Learn More</a></p>
+               </div>
+               <div class="service-1" id="service">
+                  <i class="fa-brands fa-node-js"></i>
+                  <h2>JavaScript</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio accusamus nesciunt enim aspernatur labore, error eligendi. Sequi maiores ab accusamus.</p>
+                  <p><a href="#">Learn More</a></p>
+               </div>
+            </div>
+         </div>
+         <div id="portfolio">
+               <h1>My Work</h1>
+               <div class="work-list">
+                  <div class="work">
+                     <img src="./images/phone-1.jpg">
+                     <div class="layer">
+                        <h3>Social Media Website</h3>
+                        <p>The website connects you to talented people around the world. click to visit the website</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+                  <div class="work">
+                     <img src="./images/phone-2.jpg">
+                     <div class="layer">
+                        <h3>News Website</h3>
+                        <p>The website connects you to talented people around the world. click to visit the website</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+                  <div class="work">
+                     <img src="./images/phone-3.jpg">
+                     <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>The website connects you to talented people around the world. click to visit the website</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <button type="button" class="more">See more</button>
+         </div>
+         <div id="myContact">
+            <div class="contactMe">
+               <h1>Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i> contact@example.come</p>
+               <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+               <div class="social-icons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="contact-form">
+               <form action="form">
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message"  rows="10" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn2">Submit</button>
+               </form>
+            </div>
+         </div>
+         <footer>copyright &copy; Femz. made with <i class="fa-solid fa-heart"></i> by Femi Taiwo</footer>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
