@@ -683,7 +683,7 @@ nav ul li a i:not(ul:last-child i) {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -699,6 +699,7 @@ nav ul li a i:not(ul:last-child i) {
 
 .about {
     width: 100%;
+    justify-content: center;
 }
 
 
