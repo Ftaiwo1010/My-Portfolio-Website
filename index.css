@@ -692,13 +692,14 @@ nav ul li a i:not(ul:last-child i) {
 
 
 .image-color{
-    max-width: 300px;
+    max-width: 350px;
 }
 
 
 
 .about {
     width: 100%;
+    align-items: flex-start;
     justify-content: center;
 }
 
